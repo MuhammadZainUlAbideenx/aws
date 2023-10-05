@@ -1,0 +1,142 @@
+.signin {
+    background-color: $light-gray !important;
+    height: 100%;
+    min-height: 100vh;
+
+    .logo {
+        img {
+            max-width: 50%;
+        }
+    }
+
+    .custom-icon {
+        position: absolute;
+        right: 0;
+        height: 100%;
+        z-index: 5;
+    }
+
+    .signin-slider {
+        padding: 0 5%;
+
+        .slick-list {
+            // top: -80px
+        }
+
+        // .slick-slide:nth-child(odd) {
+        //     img {
+        //         margin-top: 80px;
+        //     }
+        // }
+
+        .slick-slider .slick-prev,
+        .slick-slider .slick-next {
+            top: auto !important;
+            bottom: -40px !important;
+            z-index: 10;
+        }
+
+        @media screen and (max-width:576.5px) {
+            .slick-list {
+                top: 0 !important;
+            }
+
+            .slick-slide:nth-child(odd) {
+                img {
+                    margin-top: 0px !important;
+                }
+            }
+        }
+    }
+
+    .signin-form {
+        background: $light-sky-blue !important;
+        height: 100%;
+        min-height: 100vh;
+        padding: 0 10%;
+
+        // @media screen and (max-width:1200.5px) {
+        //     padding: 0 8%;
+        // }
+
+        // @media screen and (max-width:1159.5px) {
+        //     padding: 0 4%;
+        // }
+
+        // @media screen and (max-width:991.5px) {
+        //     padding: 0 2%;
+        // }
+
+        @media screen and (max-width:767.5px) {
+            padding: 0 5%;
+        }
+
+
+        h2 {
+            font-size: 48px;
+            color: var(--text-primary);
+        }
+
+        .error-pos {
+            width: 100%;
+            right: 0;
+            z-index: 99999;
+            top: -22px;
+        }
+
+        .btn-primary {
+            height: 54px !important;
+            border-radius: 5px !important;
+            font-size: 30px;
+
+            &:hover {
+                // opacity: .75 !important;
+                background-color: var(--dark) !important;
+            }
+        }
+
+        .form-check {
+            padding-left: 18px;
+
+            .form-check-input {
+                margin-left: -21px;
+                margin-top: 4px !important;
+                border: 2px solid $primary !important;
+                width: 16px !important;
+                height: 16px !important;
+                &:checked[type="checkbox"] {
+                    background-color: var(--bg-primary)!important;
+                }
+                &:focus {
+                    box-shadow: 0px 0px 0px 0px #000;
+                }
+            }
+        }
+
+        .form-control {
+            height: 54px;
+            font-size: 16px !important;
+        }
+
+        hr {
+            border: 2px solid #98a3db !important;
+        }
+
+        ::placeholder {
+            /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: black;
+            opacity: 1;
+            /* Firefox */
+        }
+
+        .facebook , .google {
+            width: auto !important;
+            @media screen and (max-width:991.5px) {
+                font-size: 10px;
+            }
+            @media screen and (max-width:767.5px) {
+                font-size: 0.875rem;
+            }
+        }
+    }
+}

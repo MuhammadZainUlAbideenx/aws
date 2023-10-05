@@ -1,0 +1,45 @@
+{
+"locales": [
+    {
+        "code": "bn",
+        "file": "bn.js",
+        "iso": "bn-BN",
+        "name": "Bangali"
+      },
+    {
+        "code": "hi",
+        "file": "hi.js",
+        "iso": "hi-HI",
+        "name": "Hindi"
+      },
+  {
+    "code": "es",
+    "file": "es.js",
+    "iso": "es-ES",
+    "name": "spanish"
+  },
+  {
+    "code": "ar",
+    "file": "ar.js",
+    "iso": "ar-AR",
+    "name": "arabic"
+  },
+  {
+    "code": "en",
+    "file": "en.js",
+    "iso": "en-US",
+    "name": "English"
+  }
+],
+"strategy": "no_prefix",
+"fallbackLocale": "en",
+"defaultLocale": "en",
+"lazy": true,
+"seo":true,
+"langDir": "./lang/",
+"detectBrowserLanguage":{
+  "useCookie": true,
+  "cookieKey": "i18n_redirected",
+  "onlyOnRoot": true
+  }
+}

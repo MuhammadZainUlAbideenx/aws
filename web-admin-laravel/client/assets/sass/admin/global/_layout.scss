@@ -1,0 +1,164 @@
+
+
+.sticky-toolbar {
+    width: 46px;
+    position: fixed;
+    top: 20%;
+    right: 0;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    z-index: 95;
+    -webkit-box-shadow: 0px 0px 50px 0px rgba(82, 63, 105, 0.15);
+    box-shadow: 0px 0px 50px 0px rgba(82, 63, 105, 0.15);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border-top-left-radius: 0.42rem;
+    border-bottom-left-radius: 0.42rem;
+}
+
+// .timeline.timeline-6 {
+//     position: relative;
+// }
+
+// .timeline.timeline-6:before {
+//     content: '';
+//     position: absolute;
+//     left: 50.5px;
+//     width: 4px;
+//     top: 0;
+//     bottom: 0;
+//     background-color: var(--artical-background-element);
+// }
+
+// .timeline.timeline-6 .timeline-item {
+//     display: -webkit-box;
+//     display: -ms-flexbox;
+//     display: flex;
+//     -webkit-box-align: center;
+//     -ms-flex-align: center;
+//     align-items: center;
+//     position: relative;
+//     margin-bottom: 1.7rem;
+
+//     .timeline-label {
+//         width: 50px;
+//         -ms-flex-negative: 0;
+//         flex-shrink: 0;
+//         font-size: 1rem;
+//         font-weight: 500;
+//         position: relative;
+//         color: #3F4254;
+//     }
+
+//     .timeline-badge {
+//         -ms-flex-negative: 0;
+//         flex-shrink: 0;
+//         background-color: var(--artical-background-element);
+//         width: 13px;
+//         height: 13px;
+//         border-radius: 100%;
+//         display: -webkit-box;
+//         display: -ms-flexbox;
+//         display: flex;
+//         -webkit-box-pack: center;
+//         -ms-flex-pack: center;
+//         justify-content: center;
+//         -webkit-box-align: center;
+//         -ms-flex-align: center;
+//         align-items: center;
+//         z-index: 1;
+//         position: relative;
+//         margin-top: 1px;
+//         margin-left: -0.3rem;
+//         padding: 3px !important;
+//         //border: 6px solid #ffffff !important;
+
+//         .icon-xl {
+//             font-size: 1.75rem !important;
+//         }
+//     }
+// }
+
+.card-body .row .col-md-6{
+    margin-bottom: 25px !important;
+}
+
+.media-gallery-modal.single .todos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.meta-tag-section,
+.commission-section {
+    background-color: var(--color-section-bacground);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    &:last-of-type{
+        margin-bottom: 0px;
+    }
+    button {
+        &.add {
+            padding: 10px !important;
+        }
+
+        .svg-inline--fa.fa-fw {
+            height: 14px;
+        }
+
+        &:focus {
+            box-shadow: none;
+        }
+
+    }
+}
+
+div.draggable {
+   border: 2px dashed #c5c8cc;
+   background-color: var(--color-section-bacground);
+   margin-bottom: 20px;
+  }
+
+  .product-media-seperator{
+    height: 1px;
+    position: absolute;
+    top: 130px;
+    width: 100%;
+    left: 0px;
+  }
+
+ul.product-list{
+    li{
+        list-style: none;
+    }
+}
+
+.nav-pills .nav-item{
+    position: relative;
+    .product-step-name{
+        position: absolute;
+        right:0px;
+        top: 25px;
+        left: 0;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,311 @@
+.hero-slider {
+    background-color: var(--bg-secondary-light);
+    margin: 0;
+
+    .slick-slider {
+        .slick-active .hero-wrp .hero-img {
+            transform: scale(1, 1);
+        }
+
+        .slick-prev,
+        .slick-next {
+            top: 50%;
+            z-index: 10;
+            right: 30px;
+            margin: 0;
+            width: 22px;
+            height: 36px;
+
+            &:before {
+                width: 22px;
+                height: 36px;
+            }
+        }
+
+        .slick-prev {
+            left: 30px;
+            right: inherit;
+        }
+
+        @media (max-width: 1200px) {
+            .slick-arrow {
+                display: none !important;
+            }
+        }
+    }
+
+    .hero-caption {
+        width: 25%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+        left: 0;
+        text-align: left;
+        max-width: inherit;
+        bottom: inherit;
+
+        h1 {
+            font-family: $hero-font;
+            font-size: 1.563rem;
+            color: var(--purple-color);
+
+            .fs-1 {
+                font-size: 5.375rem !important;
+                margin-bottom: 0.5rem;
+                color: var(--pink-color);
+                padding-right: 50%;
+            }
+        }
+
+        .btn {
+            background-color: var(--pink-color);
+            border-radius: 20px !important;
+            font-family: 'Poppins', sans-serif;
+
+            span {
+                margin-left: 0.3rem;
+            }
+
+            svg {
+                font-size: 1.3rem;
+            }
+        }
+
+        @media (max-width:1200px) {
+            h1 {
+                font-size: 1.2rem;
+
+                .fs-1 {
+                    font-size: 3.375rem !important;
+                }
+            }
+        }
+
+        @media only screen and (max-width: 767px) {
+
+            // width: 50%;
+            h1 {
+                font-size: 1rem;
+
+                .fs-1 {
+                    font-size: 2.375rem !important;
+                }
+            }
+
+            .btn {
+                padding: 5px 10px !important;
+                font-size: 12px !important;
+            }
+        }
+        @media (max-width:410px) {
+            .hero-section{
+                width: 30%;
+                position: absolute;
+                top: 67%;
+                transform: translateY(-31%);
+                right: 0;
+                left: 0;
+                text-align: left;
+                max-width: inherit;
+                bottom: inherit;
+            }
+        }
+    }
+
+    // .hero-wrp {
+    //     height: 630px;
+    // }
+
+    .hero-wrp-content {
+        background-color: var(--bg-secondary-light);
+
+    }
+
+    .hero-img {
+        height: 350px;
+        object-fit: cover;
+
+        @media (min-width:1200px) {
+            height: auto;
+        }
+
+        @media only screen and (max-width: 991px) {
+            height: auto;
+            object-fit: contain;
+        }
+    }
+}
+
+.rtl .hero-slider .slick-slider {
+
+    .slick-prev,
+    .slick-next {
+        right: 15px;
+        left: inherit;
+    }
+
+    .slick-prev {
+        left: 20px;
+        right: inherit;
+    }
+}
+
+.hero-section {
+
+    // background-color:var(--bg-secondary-light);
+    // min-height: 100%;
+    img {
+        object-fit: cover;
+    }
+
+    h2 {
+        font-family: $secondary-font;
+        font-weight: 900;
+        font-size: 135px;
+        line-height: 122px;
+        text-transform: uppercase;
+
+        span {
+            letter-spacing: 1.2rem;
+            display: block;
+        }
+
+        @media (max-width:1600px) and (min-width: 992px) {
+            font-size: 80px;
+            line-height: 75px;
+        }
+
+        @media (max-width:991.5px) and (min-width: 768px) {
+            font-size: 50px;
+            line-height: 44px;
+        }
+
+        @media (max-width:375.5px) {
+            font-size: 20px !important;
+            line-height: 18px !important;
+        }
+    }
+
+    h3 {
+        font-family: $secondary-font;
+        font-weight: 300;
+        font-size: 38px;
+        line-height: 56px;
+        text-transform: uppercase;
+
+        @media (max-width:1600px) and (min-width: 992px) {
+            font-size: 25px;
+            line-height: 35px;
+        }
+
+        @media (max-width:991px) and (min-width: 768px) {
+            font-size: 18px;
+            line-height: normal;
+        }
+    }
+
+    h4 {
+        font-family: $Gabelisa;
+        color: #d49556;
+        font-size: 153px;
+        line-height: 140px;
+        transform: rotate(343deg);
+        position: relative;
+        top: -115px;
+        right: -54px;
+
+        @media (max-width:1600px) and (min-width: 992px) {
+            font-size: 105px;
+            line-height: 90px;
+            top: -85px;
+            right: -45px;
+        }
+
+        @media (max-width:991px) and (min-width: 768px) {
+            font-size: 50px;
+            line-height: normal;
+            top: -60px;
+        }
+    }
+
+    @media only screen and (max-width: 767.5px) {
+        h2 {
+            font-size: 26px;
+            line-height: 22px;
+
+            span {
+                letter-spacing: 0;
+            }
+        }
+
+        h3 {
+            font-size: 10px;
+            line-height: normal;
+        }
+
+        h4 {
+            font-size: 35px;
+            line-height: normal;
+            top: -30px;
+            right: 0;
+        }
+    }
+}
+
+.carousel-indicators {
+    [data-bs-target] {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #7a7a7a;
+        opacity: 1;
+        border: 3px solid transparent;
+        box-shadow: 0px 0px 0px 1px #7a7a7a;
+
+        @media only screen and (max-width: 767px) {
+            width: 5px;
+            height: 5px;
+            box-shadow: 0px 0px 0px 0.1px #7a7a7a;
+        }
+    }
+
+    .active {
+        background-color: #2351f4;
+        box-shadow: 0px 0px 0px 1px #2351f4;
+
+        @media only screen and (max-width: 767px) {
+            box-shadow: 0px 0px 0px 0.1px #2351f4;
+        }
+    }
+}
+
+.category-slider {
+    .slick-track {
+        display: flex;
+        justify-content: center;
+        width: 100% !important;
+    }
+}
+
+.mt-n1 {
+    margin-top: -30px;
+}
+
+.carousel-indicators {
+    bottom: 60px;
+    right: 450px;
+
+    @media only screen and (max-width: 767px) {
+        bottom: 0px;
+        right: 0px;
+    }
+}
+
+.w-lg-50 {
+    width: 50%;
+
+    @media only screen and (max-width: 767px) {
+        width: 100%;
+    }
+}

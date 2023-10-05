@@ -1,0 +1,19 @@
+.top-brands {
+    .slick-arrow {
+        margin-top: 0.75rem;
+    }
+    .slick-slider {
+        .slick-list {
+            margin: -0.75rem;
+            img {
+                max-width: 100%;
+                max-height: 70px;
+                width: inherit;
+            }
+        }
+    }
+    .brand-card {
+        margin: 0.75rem;
+        max-height: 70px;
+    }
+}

@@ -1,0 +1,95 @@
+<template>
+    <!-- <section class="permotion-section skeletion-effect" v-if="!allGenericData">
+        <div class="container">
+            <div class="permote-wraper rounded text-white skeletion-animation text p-5">
+                <div class="row">
+                    <div class="col-lg-5 col-12">
+                        <div class="d-flex flex-column justify-content-center h-100">
+                            <h5 class="mb-1 text-uppercase skeletion-animation mb-3"></h5>
+                            <p class="m-0 opacity-5 skeletion-animation"></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-12">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-12 mb-4 mb-md-0">
+                                <div class="bg-white p-4 rounded h-100 text-center text-lg-start">
+                                    <div class="thumb-img1 skeletion-animation"></div>
+                                    <h5 class="mb-1 text-uppercase skeletion-animation mb-2"></h5>
+                                    <h6 class="m-0 opacity-5 skeletion-animation"></h6>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12 mb-4 mb-md-0">
+                                <div class="bg-white p-4 rounded h-100 text-center text-lg-start">
+                                    <div class="thumb-img1 skeletion-animation"></div>
+                                    <h5 class="mb-1 text-uppercase skeletion-animation mb-2"></h5>
+                                    <h6 class="m-0 opacity-5 skeletion-animation"></h6>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12 mb-4 mb-md-0">
+                                <div class="bg-white p-4 rounded h-100 text-center text-lg-start">
+                                    <div class="thumb-img1 skeletion-animation"></div>
+                                    <h5 class="mb-1 text-uppercase skeletion-animation mb-2"></h5>
+                                    <h6 class="m-0 opacity-5 skeletion-animation"></h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section class="permotion-section">
+        <div class="container px-0">
+            <div class="bg-blue-light px-4 px-lg-5 py-50 rounded">
+                <div class="row">
+                    <div class="col-xl-5 col-12">
+                        <div class="d-flex flex-column justify-content-center h-100">
+                            <h2 class="fs-1 fw-bold mb-3 text-dark">{{this.$t('web.shop.promotion_section.title.first')}} <br>{{this.$t('web.shop.promotion_section.title.second')}}</h2>
+                            <p class="fs-5 text-dark-50">{{this.$t('web.shop.promotion_section.sub_heading')}}</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-12">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-12 mb-4 mb-md-0">
+                                <div class="card border-0 bg-white p-4 rounded h-100 text-center text-lg-start">
+                                    <span class="icon-section mb-3 bg-pink-light d-flex align-items-center justify-content-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="65" height="65" x="0" y="0" viewBox="0 0 1700 1700" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><g xmlns="http://www.w3.org/2000/svg"><path d="m1202.7 924.6h.1l254.7-1.9c9.9-.1 17.9-8.1 17.9-18 0-64.6-25.1-125.3-70.8-171s-106.4-70.8-171-70.8h-31c-9.9 0-18 8.1-18 18v225.7c0 4.8 1.9 9.4 5.3 12.8 3.5 3.3 8 5.2 12.8 5.2zm18-225.7h13c55 0 106.6 21.4 145.5 60.3 34.6 34.6 55.4 79.4 59.5 127.6l-218 1.7z" fill="#000000" data-original="#000000"></path><path d="m1557 1100h-.5v-195.3c0-86.3-33.6-167.3-94.6-228.3s-142.1-94.6-228.3-94.6h-94.1v-163.5c0-9.9-8.1-18-18-18h-812.7c-9.9 0-18 8.1-18 18v108.5h-184.8c-9.9 0-18 8.1-18 18s8.1 18 18 18h347.9c9.9 0 18-8.1 18-18s-8.1-18-18-18h-127.1v-90.5h776.8v163.5 500.2h-394.5c-21.7-52.6-73.5-89.7-133.9-89.7s-112.2 37.1-133.9 89.7h-114.5v-160h115.1c9.9 0 18-8.1 18-18s-8.1-18-18-18h-273c-9.9 0-18 8.1-18 18s8.1 18 18 18h121.9v160h-.5c-14.7 0-28.5 5.7-38.9 16.1s-16.1 24.2-16.1 38.9c0 30.3 24.7 55 55 55h151c21.7 52.6 73.5 89.7 133.9 89.7s112.2-37.1 133.9-89.7h487.1c21.7 52.6 73.5 89.7 133.9 89.7s112.2-37.1 133.9-89.7h93.1c14.7 0 28.5-5.7 38.9-16.1s16.1-24.2 16.1-38.9c-.1-30.4-24.8-55-55.1-55zm-417.5-482.2h94.1c158.2 0 286.9 128.7 286.9 286.9v195.3h-56.6c-21.7-52.6-73.5-89.7-133.9-89.7s-112.2 37.1-133.9 89.7h-56.6zm-849.2 556.2c-10.5 0-19-8.5-19-19 0-5.1 2-9.9 5.6-13.5s8.3-5.6 13.4-5.6h18.5 122.9c-.8 6.2-1.2 12.6-1.2 19s.4 12.8 1.2 19h-141.4zm284.9 89.7c-60 0-108.8-48.8-108.8-108.8s48.8-108.8 108.8-108.8 108.8 48.8 108.8 108.8-48.8 108.8-108.8 108.8zm143.5-89.7c.8-6.2 1.2-12.6 1.2-19s-.4-12.8-1.2-19h402.8 65c-.8 6.2-1.2 12.6-1.2 19s.4 12.8 1.2 19zm611.3 89.7c-60 0-108.8-48.8-108.8-108.8s48.8-108.8 108.8-108.8 108.8 48.8 108.8 108.8-48.8 108.8-108.8 108.8zm240.4-95.3c-3.6 3.6-8.4 5.6-13.4 5.6h-83.4c.8-6.2 1.2-12.6 1.2-19s-.4-12.8-1.2-19h65 18.5c10.5 0 19 8.5 19 19-.1 5-2.1 9.8-5.7 13.4z" fill="#000000" data-original="#000000"></path><path d="m575.2 1095.4c-32.9 0-59.6 26.7-59.6 59.6 0 32.8 26.7 59.6 59.6 59.6s59.6-26.7 59.6-59.6-26.8-59.6-59.6-59.6zm0 83.1c-13 0-23.6-10.6-23.6-23.6s10.6-23.6 23.6-23.6 23.6 10.6 23.6 23.6c0 13.1-10.6 23.6-23.6 23.6z" fill="#000000" data-original="#000000"></path><path d="m1330 1095.4c-32.9 0-59.6 26.7-59.6 59.6 0 32.8 26.7 59.6 59.6 59.6s59.6-26.7 59.6-59.6-26.7-59.6-59.6-59.6zm0 83.1c-13 0-23.6-10.6-23.6-23.6s10.6-23.6 23.6-23.6 23.6 10.6 23.6 23.6c0 13.1-10.6 23.6-23.6 23.6z" fill="#000000" data-original="#000000"></path><path d="m637.4 562.8c9.9 0 18-8.1 18-18s-8.1-18-18-18h-103.2c-9.9 0-18 8.1-18 18s8.1 18 18 18z" fill="#000000" data-original="#000000"></path><path d="m298.6 652.5h-121.6c-9.9 0-18 8.1-18 18s8.1 18 18 18h121.6c9.9 0 18-8.1 18-18s-8.1-18-18-18z" fill="#000000" data-original="#000000"></path><path d="m360.9 670.5c0 9.9 8.1 18 18 18h329.5c9.9 0 18-8.1 18-18s-8.1-18-18-18h-329.5c-10 0-18 8.1-18 18z" fill="#000000" data-original="#000000"></path><path d="m215.7 796.3c0-9.9-8.1-18-18-18h-91.7c-9.9 0-18 8.1-18 18s8.1 18 18 18h91.7c9.9 0 18-8.1 18-18z" fill="#000000" data-original="#000000"></path><path d="m259.9 796.3c0 9.9 8.1 18 18 18h359.4c9.9 0 18-8.1 18-18s-8.1-18-18-18h-359.4c-9.9 0-18 8-18 18z" fill="#000000" data-original="#000000"></path><path d="m522.1 904c-9.9 0-18 8.1-18 18s8.1 18 18 18h178.1c9.9 0 18-8.1 18-18s-8.1-18-18-18z" fill="#000000" data-original="#000000"></path></g></g></svg>
+                                    </span>
+                                    <h3 class="fs-4 fw-bold">{{this.$t('web.shop.promotion_section.shop_with_confidence.title.first')}}<br> {{this.$t('web.shop.promotion_section.shop_with_confidence.title.second')}}</h3>
+                                    <p class="fs-5 text-dark-50">{{this.$t('web.shop.promotion_section.shop_with_confidence.description')}}</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12 mb-4 mb-md-0">
+                                <div class="card border-0 bg-white p-4 rounded h-100 text-center text-lg-start">
+                                    <span class="icon-section mb-3 bg-blue-dark-50 d-flex align-items-center justify-content-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="45" height="45" x="0" y="0" viewBox="0 0 374 374.10622" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g transform="matrix(1,0,0,1,40,0)"><path xmlns="http://www.w3.org/2000/svg" d="m287.664062 75.746094-140.605468-74.921875c-2.085938-1.113281-4.585938-1.097657-6.65625.039062l-136.714844 74.921875c-2.242188 1.230469-3.6328125 3.582032-3.6328125 6.140625v97.867188c.0820315 80.449219 47.7460935 153.230469 121.4570315 185.460937l18.976562 8.269532c1.773438.773437 3.792969.777343 5.570313.007812l21.382812-9.234375c75.078125-31.53125 123.921875-105.015625 123.929688-186.445313v-95.925781c0-2.585937-1.425782-4.964843-3.707032-6.179687zm-10.292968 102.105468c-.015625 75.816407-45.503906 144.226563-115.410156 173.566407l-.046876.023437-18.621093 8.039063-16.179688-7.058594c-68.613281-30-112.984375-97.742187-113.0625-172.628906v-93.722657l129.761719-71.117187 133.558594 71.167969zm0 0" fill="#000000" data-original="#000000" class=""></path><path xmlns="http://www.w3.org/2000/svg" d="m92.167969 175.253906c-2.511719-2.941406-6.929688-3.289062-9.871094-.777344-2.941406 2.507813-3.289063 6.929688-.777344 9.867188l36.976563 43.300781c2.46875 2.890625 6.792968 3.285157 9.738281.886719l86.117187-70.0625c3-2.4375 3.453126-6.847656 1.011719-9.847656-2.4375-2.996094-6.847656-3.453125-9.847656-1.011719l-80.8125 65.742187zm0 0" fill="#000000" data-original="#000000" class=""></path></g></svg>
+                                    </span>
+                                    <h3 class="fs-4 fw-bold">{{this.$t('web.shop.promotion_section.secure_shopping.title.first')}}<br> {{this.$t('web.shop.promotion_section.secure_shopping.title.second')}}</h3>
+                                    <p class="fs-5 text-dark-50">{{this.$t('web.shop.promotion_section.secure_shopping.description')}}</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12 mb-4 mb-md-0">
+                                <div class="card border-0 bg-white p-4 rounded h-100 text-center text-lg-start">
+                                    <span class="icon-section mb-3 bg-purple-light d-flex align-items-center justify-content-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="50" height="50" x="0" y="0" viewBox="0 0 48 48" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path xmlns="http://www.w3.org/2000/svg" d="m13.12 29.48-2.22 12.98c-.06.38.09.75.4.98.31.22.72.25 1.05.08l11.65-6.14 11.65 6.13c.15.08.31.11.47.11.21 0 .41-.06.59-.19.31-.22.46-.6.4-.98l-2.22-12.98 9.43-9.19c.27-.27.37-.66.25-1.03-.12-.36-.43-.63-.81-.68l-13.03-1.89-5.83-11.79c-.34-.68-1.46-.68-1.79 0l-5.83 11.8-13.03 1.9c-.38.05-.69.32-.81.68s-.02.76.25 1.03zm4.96-10.88c.33-.05.61-.25.75-.55l5.17-10.46 5.16 10.46c.15.3.43.5.75.55l11.54 1.68-8.35 8.14c-.24.23-.34.56-.29.89l1.97 11.5-10.32-5.43c-.15-.08-.31-.11-.47-.11s-.32.04-.47.11l-10.31 5.42 1.97-11.5c.06-.32-.05-.66-.29-.89l-8.35-8.14z" fill="#000000" data-original="#000000"></path></g></svg>
+                                    </span>
+                                    <h3 class="fs-4 fw-bold">{{this.$t('web.shop.promotion_section.shop_with_confidence.title.first')}}<br> {{this.$t('web.shop.promotion_section.shop_with_confidence.title.second')}}</h3>
+                                    <p class="fs-5 text-dark-50">{{this.$t('web.shop.promotion_section.shop_with_confidence.description')}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</template>
+
+<script>
+export default {
+}
+</script>
+
+<style>
+
+</style>

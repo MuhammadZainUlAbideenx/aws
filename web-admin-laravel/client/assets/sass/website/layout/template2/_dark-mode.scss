@@ -1,0 +1,5 @@
+.dark {
+    .btn-close {
+        filter: invert(1) sepia(1) hue-rotate(145deg) saturate(10) grayscale(60%);
+    }
+}

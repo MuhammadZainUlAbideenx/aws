@@ -1,0 +1,17 @@
+.item-img{
+    width: 85px;
+    height: 85px;
+    margin-right: 25px;
+    flex-shrink: 0;
+    border-radius: .6rem;
+    overflow: hidden;
+    img{
+        max-width: 100%;
+    height: auto;
+    }
+}
+
+.media-gallery-modal.single img {
+    width: 130px;
+    height: 130px;
+}

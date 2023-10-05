@@ -1,0 +1,47 @@
+.product-rating-review-sec {
+    padding: 60px 0 60px;
+    .rat-rev-wrap {
+        border: 1px solid var(--border-color);
+    }
+    .rev-product {
+        border-bottom: 1px solid var(--border-color);
+        display: flex;
+        padding-bottom: 1.5rem;
+        .img-wrap {
+            width: 109px;
+            height: 109px;
+            border-radius: 0.6rem;
+            overflow: hidden;
+            margin-right: 1.5rem;
+        }
+    }
+    .rev-product-detail {
+        border-bottom: 1px solid var(--border-color);
+        padding: 1.5rem 0;
+        margin-bottom: 1rem;
+        .stars {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+        .gallary-img {
+            margin: 1.2rem -0.3rem 1.2rem -0.3rem;
+            li {
+                margin: 0.3rem;
+            }
+            .img-wrap {
+                width: 85px;
+                height: 85px;
+                border-radius: 0.6rem;
+                overflow: hidden;
+            }
+        }
+        .rev-verified svg {
+            color: $success;
+        }
+    }
+    @media (max-width: 575px) {
+        .sort-filter {
+            flex-direction: column !important;
+        }
+    }
+}

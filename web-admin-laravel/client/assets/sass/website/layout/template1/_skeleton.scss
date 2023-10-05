@@ -1,0 +1,804 @@
+.skeletion-effect {
+    .banner {
+        width: 100%;
+        height: 280px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        background-color: var(--skelton1-bg) !important;
+    }
+    h1 .skeletion-animation {
+        height: 37px;
+        margin-top: 10px;
+        width: 50%;
+        &.text {
+            width: 70%;
+        }
+    }
+    h2.section-heading.skeletion-animation {
+        height: 26px;
+        width: 35%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    p.section-subheading {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+        height: 14px;
+        width: 70%;
+    }
+    .static-card {
+        .skeletion-animation {
+            height: 170px;
+            width: 100%;
+        }
+    }
+    h2.skeletion-animation {
+        height: 30px;
+        width: 85%;
+    }
+    h3.skeletion-animation {
+        height: 24px;
+        width: 85%;
+    }
+    h4.skeletion-animation {
+        height: 20px;
+        width: 85%;
+    }
+    h5.skeletion-animation {
+        height: 18px;
+        width: 85%;
+        background-color: var(--skelton3-bg) !important;
+    }
+    h6.skeletion-animation {
+        height: 16px;
+        width: 85%;
+    }
+    .price.skeletion-animation {
+        height: 20px;
+        display: block;
+        width: 20%;
+    }
+    #countdown li {
+        span {
+            width: 30px;
+            height: 30px;
+            margin-bottom: 10px;
+        }
+        div {
+            height: 10px;
+        }
+    }
+    button.skeletion-animation,
+    .btn.skeletion-animation {
+        width: 90px;
+        height: 33px;
+        border: none !important;
+        background-color: var(--skelton1-bg) !important;
+        cursor: default;
+        &.text {
+            background-color: var(--skelton3-bg) !important;
+        }
+        &.litext {
+            background-color: var(--skelton2-bg) !important;
+        }
+        &::before {
+            display: none;
+        }
+    }
+
+    .thumb-img.skeletion-animation {
+        width: 100%;
+        height: 100%;
+    }
+    .badge.skeletion-animation {
+        height: 20px;
+        width: 50px;
+        display: block;
+        background-color: var(--skelton1-bg) !important;
+    }
+
+    .rating {
+        display: flex;
+        span.skeletion-animation {
+            width: 12px;
+            height: 12px;
+            display: block;
+            margin: 2px;
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+    .list-icon.skeletion-animation {
+        width: 20px;
+        height: 20px;
+        display: block;
+    }
+
+    .sm-btn {
+        width: 40px;
+        height: 30px;
+        margin-right: 15px;
+        margin-bottom: 10px;
+        background-color: var(--skelton3-bg) !important;
+    }
+
+    .filter {
+        width: 100px;
+        height: 20px;
+        margin-right: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: var(--skelton3-bg) !important;
+    }
+
+    .compare-item{
+        height: 400px;
+        background-color: var(--skelton3-bg) !important;
+        .compare-item-img{
+            background-color: var(--skelton2-bg) !important;
+        }
+        .img-wrap{
+            width: 100%;
+            height: 100%;
+            background-color: var(--skelton3-bg) !important;
+        }
+        li{
+            background-color: var(--skelton3-bg);
+            height: 45px;
+            &:nth-child(2){
+                background-color: var(--skelton2-bg) !important;
+            }
+        }
+        .btn{
+            width: 10%;
+            height: 50px;
+            background-color: var(--skelton3-bg);
+        }
+    }
+
+    .review-cards{
+        .card{
+            height: 117px;
+            background-color: var(--skelton3-bg) !important;
+        }
+
+    }
+    .rating-review-sec{
+        .card-wrap{
+            height: 274px;
+            background-color: var(--skelton2-bg) !important;
+        }
+        p{
+            width: 60%;
+            height: 15px;
+            background-color: var(--skelton3-bg) !important;
+            &:nth-child(2){
+                width: 40%;
+            }
+        }
+        .text{
+            width: 70px;
+            height: 20px;
+            background-color: var(--skelton3-bg) !important;
+        }
+        .h4{
+            width: 50%;
+            height: 30px;
+            background-color: var(--skelton3-bg) !important;
+        }
+    }
+    .product-rating-review-sec{
+        p{
+            width: 60%;
+            height: 15px;
+            background-color: var(--skelton3-bg) !important;
+            &:nth-child(2){
+                width: 40%;
+            }
+        }
+        .text{
+            width: 70px;
+            height: 20px;
+            background-color: var(--skelton3-bg) !important;
+        }
+        .h4{
+            width: 50%;
+            height: 30px;
+            background-color: var(--skelton3-bg) !important;
+        }
+        .rat-rev-wrap{
+            .img{
+                width: 100%;
+                height: 100%;
+                background-color: var(--skelton3-bg) !important;
+            }
+            p{
+            width: 260px;
+            height: 15px;
+            background-color: var(--skelton3-bg) !important;
+            &:nth-child(2){
+                width: 40%;
+            }
+            }
+
+        }
+    }
+}
+.skeletion-effect.hero-slider {
+    height: 500px;
+}
+.skeletion-effect.flash-sale-products .card {
+    margin: 0;
+}
+.skeletion-effect.featured-items {
+    .card {
+        margin: 0;
+        cursor: default;
+        .hov-wrap {
+            opacity: 1;
+            transition: none;
+            visibility: inherit;
+            background-color: transparent;
+        }
+    }
+    .rating {
+        justify-content: center;
+    }
+}
+.skeletion-effect.new-arrivals,
+.skeletion-effect.upcoming-items {
+    .col-sm-9 {
+        margin-top: -0.75rem;
+        margin-bottom: -0.75rem;
+    }
+    .thumb-img-wrap {
+        width: 80%;
+        height: 168px;
+        margin: 0 auto;
+    }
+    h3 {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h5 {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .col-4 {
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+    }
+    .card {
+        border: 0;
+        margin: 0;
+        .thumb-img-wrap {
+            height: inherit;
+        }
+        .thumb-img.skeletion-animation {
+            height: 100px;
+        }
+    }
+}
+.skeletion-effect.parallex-section.skeletion-animation {
+    background-image: none;
+    h2.skeletion-animation {
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btn.skeletion-animation {
+        width: 10%;
+    }
+}
+.skeletion-effect.testimonials .card .card-body {
+    &:after,
+    &:before {
+        display: none;
+    }
+    p {
+        height: 14px;
+        width: 100%;
+        margin-bottom: 5px;
+        + p {
+            width: calc(100% - 5%);
+            + p {
+                width: calc(100% - 10%);
+            }
+        }
+    }
+    h6.skeletion-animation {
+        width: 45%;
+    }
+}
+.skeletion-effect.top-brands .thumb-img.skeletion-animation {
+    height: 70px;
+}
+.skeletion-effect.blog .card {
+    margin: 0;
+    .thumb-img.skeletion-animation {
+        height: 370px;
+    }
+    h5.skeletion-animation {
+        width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h6.skeletion-animation {
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p {
+        width: 80%;
+        margin-bottom: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        + p {
+            width: calc(100% - 10%);
+            + p {
+                width: calc(100% - 30%);
+            }
+        }
+    }
+}
+.skeletion-effect.news-letter {
+    .insta-feeds {
+        .col {
+            padding: 0 2.5px;
+            &:first-child {
+                padding-left: 0;
+            }
+            &:last-child {
+                padding-right: 0;
+            }
+        }
+        .card-img-top {
+            height: 130px;
+        }
+    }
+    .news-letter-mail h2 {
+        width: 45%;
+    }
+}
+.permote-wraper.skeletion-animation {
+    .permote-card {
+        width: 64%;
+    }
+    .thumb-img {
+        width: 36px;
+        height: 36px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius: 50%;
+    }
+}
+
+.skeletion-animation {
+    background-color: var(--skelton1-bg) !important;
+    position: relative;
+    overflow: hidden;
+    &::after {
+        content: "";
+        background-image: linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 0) 0,
+            rgba(255, 255, 255, 0.2) 20%,
+            rgba(255, 255, 255, 0.5) 60%,
+            rgba(255, 255, 255, 0)
+        );
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        transform: translateX(-100%);
+        animation: shimmer 2s infinite;
+    }
+    &.text {
+        background-color: var(--skelton3-bg) !important;
+    }
+    &.litext {
+        background-color: var(--skelton2-bg) !important;
+    }
+}
+@-webkit-keyframes shimmer {
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes shimmer {
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.brands-page {
+    .skeletion-effect {
+        h2.skeletion-animation {
+            height: 40px;
+            width: 40% !important;
+            background-color: var(--skelton3-bg) !important;
+        }
+    }
+}
+.vender-profle-page {
+    .skeletion-effect {
+        h2 {
+            width: 40%;
+        }
+        p {
+            height: 18px;
+            width: 60px;
+        }
+        .vendor-img.lg {
+            width: 160px !important;
+            height: 160px !important;
+        }
+    }
+}
+.product-detail {
+    .skeletion-effect {
+        h1 {
+            width: 100%;
+            height: 20px;
+            background-color: var(--skelton3-bg) !important;
+        }
+        h2 {
+            width: 65%;
+            height: 20px;
+            background-color: var(--skelton3-bg) !important;
+        }
+        h3 {
+            width: 45%;
+            height: 20px;
+            background-color: var(--skelton3-bg) !important;
+        }
+        .text {
+            height: 18px;
+            width: 60px;
+            background-color: var(--skelton3-bg) !important;
+        }
+        .image {
+            width: 100% !important;
+            height: 100% !important;
+            background-color: var(--skelton3-bg) !important;
+        }
+        .btn {
+            height: 20px;
+            background-color: var(--skelton3-bg) !important;
+            width: 45px;
+        }
+        .btn-lg{
+             height: 33px;
+            background-color: var(--skelton3-bg) !important;
+            width: 40%;
+            border-radius: 0.6rem;
+        }
+        .badge{
+            height: 22px;
+            width: 40px;
+            background-color: var(--skelton1-bg) !important;
+        }
+
+        .carousel{
+            width: 573px;
+            height: 594px;
+            background-color: var(--skelton3-bg) !important;
+        }
+        .qty{
+            height: 33px;
+            width: 50px;
+            background-color: var(--skelton3-bg) !important;
+            border-radius: 0.6rem;
+        }
+    }
+}
+
+.order-detail{
+    .skeletion-effect {
+    .p1{
+        width: 100%;
+        height: 15px !important;
+        background-color: var(--skelton3-bg) !important;
+        margin-bottom: 10px;
+    }
+
+    .p2{
+        width: 65%;
+        height: 15px !important;
+        background-color: var(--skelton3-bg) !important;
+        margin-bottom: 10px;
+    }
+    .h1{
+        width: 70% !important;
+        height: 25px !important;
+        background-color: var(--skelton3-bg) !important;
+    }
+    .h2{
+        width: 55% !important;
+        height: 25px !important;
+        background-color: var(--skelton3-bg) !important;
+    }
+    .h3{
+        width: 35% !important;
+        height: 25px !important;
+        background-color: var(--skelton3-bg) !important;
+    }
+    .img{
+        width: 100% !important;
+        height: 100% !important;
+        background-color: var(--skelton3-bg) !important;
+    }
+    .detail{
+        width: 100% !important;
+        height: 186px !important;
+        background-color: var(--skelton2-bg) !important;
+    }
+    .shipping{
+        width: 100% !important;
+        height: 395px !important;
+        background-color: var(--skelton2-bg) !important;
+    }
+    .btn-block{
+        width:100%;
+    }
+}
+}
+
+.my-profile-page{
+    .skeletion-effect {
+    .button{
+        width: 155px;
+        height: 47px;
+        background-color: var(--skelton3-bg) !important;
+        border-top-left-radius: 0.6rem;
+    border-top-right-radius: 0.6rem;
+    }
+
+    .tab-pane{
+        width: 100%;
+        height: 500px;
+        background-color: var(--skelton2-bg) !important;
+    }
+    }
+}
+
+
+.contact-us{
+    .skeletion-effect {
+        .heading{
+            height: 30px;
+           width: 30%;
+           background-color: var(--skelton3-bg) !important;
+           margin-bottom: 20px;
+        }
+        .text{
+            height: 20px;
+           width: 60%;
+           background-color: var(--skelton3-bg) !important;
+           margin-bottom: 30px
+        }
+        .form{
+            height: 370px;
+            background-color: var(--skelton2-bg) !important;
+            .textarea{
+                height: 150px;
+                background-color: var(--skelton3-bg) !important;
+                margin-bottom: 15px;
+            }
+            .input{
+                height: 45px;
+                background-color: var(--skelton3-bg) !important;
+                margin-bottom: 15px;
+            }
+            .btn{
+                background-color: var(--skelton3-bg) !important;
+            }
+
+        }
+        .map{
+            height: 370px;
+            background-color: var(--skelton3-bg) !important;
+        }
+        .review-cards{
+            .card{
+                height: 150px;
+            }
+
+        }
+    }
+
+}
+
+.blog-page{
+    .skeletion-effect {
+        .img{
+            height: 370px;
+            background-color: var(--skelton3-bg) !important;
+            margin-bottom: 30px
+        }
+
+        .text{
+            height: 10px;
+           width: 60%;
+           background-color: var(--skelton3-bg) !important;
+           margin-bottom: 20px;
+           &.second{
+            width: 65% !important;
+           }
+           &.third{
+            width: 75% !important;
+        }
+
+        }
+
+
+        .h4{
+            height: 20px;
+           width: 60%;
+           background-color: var(--skelton3-bg) !important;
+           margin-bottom: 20px
+        }
+    }
+}
+
+.blog-detail{
+    .skeletion-effect {
+        .heading{
+            height: 45px;
+            background-color: var(--skelton3-bg) !important;
+            margin-bottom: 20px;
+            width: 30%;
+        }
+
+        .subheading{
+            height: 20px;
+            background-color: var(--skelton3-bg) !important;
+            margin-bottom: 20px;
+            width:20%
+        }
+
+        .badge{
+            width: 50px;
+            height: 30px;
+            background-color: var(--skelton3-bg) !important;
+            margin-bottom: 20px
+        }
+
+        .banner{
+            height: 400px;
+            background-color: var(--skelton3-bg) !important;
+            margin-bottom: 30px
+        }
+
+        .text{
+            height: 20px;
+                width: 60%;
+                background-color: var(--skelton3-bg) !important;
+                margin-bottom: 20px;
+            &.second{
+                width: 70%;
+            }
+            .third{
+                width: 65%;
+            }
+        }
+    }
+}
+
+.about-us{
+    .skeletion-effect {
+        .heading{
+            height: 45px;
+            background-color: var(--skelton3-bg) !important;
+            margin-bottom: 20px;
+            width: 30%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .subheading{
+            height: 20px;
+            background-color: var(--skelton3-bg) !important;
+            margin-bottom: 20px;
+            width:20%;
+            margin-left: auto;
+    margin-right: auto;
+        }
+
+        .banner{
+            height: 400px;
+            background-color: var(--skelton3-bg) !important;
+            margin-bottom: 30px
+        }
+        .review-cards{
+            .card{
+                height: 150px;
+            }
+
+        }
+
+        .content{
+            .img{
+                height: 400px;
+                background-color: var(--skelton3-bg) !important;
+            }
+
+            .text{
+                height: 20px;
+                    width: 60%;
+                    background-color: var(--skelton3-bg) !important;
+                    margin-bottom: 20px;
+                &.second{
+                    width: 70%;
+                }
+                .third{
+                    width: 65%;
+                }
+            }
+        }
+
+        .team{
+            .img{
+                height: 108px;
+                background-color: var(--skelton3-bg) !important;
+            }
+        }
+    }
+}
+
+
+.product-order{
+    .skeletion-effect {
+        .form{
+
+            height: auto !important;
+            background-color: var(--skelton2-bg) !important;
+            .label{
+                width: 50px;
+                height: 15px;
+                background-color: var(--skelton3-bg) !important;
+                margin-bottom: 15px;
+            }
+            .textarea{
+                height: 150px;
+                background-color: var(--skelton3-bg) !important;
+                margin-bottom: 15px;
+            }
+            .input{
+                height: 45px;
+                background-color: var(--skelton3-bg) !important;
+                margin-bottom: 20px;
+            }
+            .btn{
+                background-color: var(--skelton3-bg) !important;
+            }
+
+        }
+    }
+}
+
+
+.general-card.skeletion-effect {
+    height: 370px !important;
+    background-color: var(--skelton2-bg) !important;
+        .text{
+            height: 20px;
+                width: 60%;
+                background-color: var(--skelton3-bg) !important;
+                margin-bottom: 20px;
+            &.second{
+                width: 70%;
+            }
+            .third{
+                width: 65%;
+            }
+        }
+    }

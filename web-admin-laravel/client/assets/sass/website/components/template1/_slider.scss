@@ -1,0 +1,60 @@
+.slick-slider {
+    .slick-slide {
+        > div > div {
+            vertical-align: top;
+        }
+        img {
+            width: 100%;
+            @media (max-width:1199.9px) and (min-width: 768px){
+                object-fit:cover;
+                height: 170px;
+            }
+        }
+    }
+    .slick-prev, .slick-next {
+        right: 15px;
+        left: inherit;
+        top: -24px;
+        width: 11px;
+        &::before {
+            background-color: var(--bg-color-dark);
+            mask-image: url('~assets/images/chevron-right-solid.svg');
+            -webkit-mask-image: url('~assets/images/chevron-right-solid.svg');
+            mask-size: 100% auto;
+            content: "";
+            width: 11px;
+            height: 18px;
+            display: block;
+        }
+    }
+    .slick-prev {
+        margin-right: 20px;
+        &::before {
+            transform: rotate(180deg);
+        }
+    }
+    .slick-dots {
+        position: absolute;
+        bottom: 0;
+    }
+    @media (max-width: 1200px) {
+        .slick-arrow {
+            display: none!important;
+        }
+    }
+}
+
+.rtl {
+    .slick-slider {
+        .slick-prev, .slick-next {
+            right: inherit;
+            left: 15px;
+        }
+        .slick-prev {
+            margin-right: inherit;
+        }
+        .slick-next {
+            margin-left: 20px;
+        }
+    }
+}

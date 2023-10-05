@@ -1,0 +1,30 @@
+.dark .ck.ck-toolbar {
+    background-color: var(--bg-secondary);
+
+}
+
+.dark .ck.ck-dropdown.ck-heading-dropdown .ck-dropdown__button .ck-button__label {
+    color: var(--text-body-secondary) !important;
+}
+
+.dark .ck.ck-editor__main>.ck-editor__editable {
+    background-color: var(--bg-secondary);
+
+}
+
+.dark .ck.ck-editor__main>.ck-editor__editable:not(.ck-focused) {
+    border-color: var(--color-border);
+}
+
+.dark .ck.ck-toolbar {
+    border: 1px solid var(--color-border);
+}
+
+.dark .ck.ck-reset_all,
+.ck.ck-reset_all * {
+    color: var(--text-body-secondary) !important;
+}
+
+.ck-list,.ck-button{
+    background-color: var(--bg-secondary) !important;
+}

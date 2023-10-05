@@ -1,0 +1,51 @@
+.upcoming-items {
+    .slick-list {
+        margin: -0.75rem;
+    }
+    .card {
+        margin: 0.75rem;
+        a > .row {
+            height: 153px;
+        }
+        a:hover {
+            color: var(--text-body);
+        }
+        .img-wrap {
+            width: 100%;
+            height: 100%;
+            background-color: #ddd;
+            border-right: 1px solid #d7d7d7;
+            box-shadow: 0 0 6px 0 #ddd;
+            img {
+                width: auto;
+            }
+        }
+        h6 {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+        .product-price {
+            .price{font-size: 14px;}
+            .actual-price{font-size: 10px;}
+        }
+        div.icons{
+            margin-bottom: 0.5rem;
+        }
+        .list-icon {
+            color: var(--text-body);
+            margin-right: 0.5rem;
+            &:hover {
+                color: var(--primary);
+            }
+        }
+    }
+}
+.rtl {
+    .upcoming-items .card .list-icon {
+        margin-right: 0;
+        margin-left: 0.5rem;
+    }
+}

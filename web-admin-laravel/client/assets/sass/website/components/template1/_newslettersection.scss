@@ -1,0 +1,36 @@
+.insta-feeds {
+    img{
+        width: 100%;
+        height: 215px;
+    }
+    .slick-slide {
+        h3 {
+            margin: 0 2.5px;
+        }
+    }
+}
+.news-letter{
+    .news-letter-mail{
+        background-color: var(--primary);
+        color: white;
+        h2 {
+            font-size: 36px;
+            font-weight: 800;
+        }
+        p{
+            font-size: 14px;
+            font-weight: 300;
+        }
+        .mail{
+           height: 45px;
+           .input-group-append{
+            color: var(--primary);
+            font-size: 25px;
+
+           }
+           span{
+            z-index: 5;
+        }
+        }
+    }
+}

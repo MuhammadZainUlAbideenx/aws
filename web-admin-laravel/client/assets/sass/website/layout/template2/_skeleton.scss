@@ -1,0 +1,1276 @@
+.skeletion-effect {
+    .banner {
+        width: 100%;
+        height: 280px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        background-color: var(--skelton1-bg) !important;
+    }
+
+    h1 .skeletion-animation {
+        height: 37px;
+        margin-top: 10px;
+        width: 50%;
+
+        &.text {
+            width: 70%;
+        }
+    }
+
+    h2.section-heading.skeletion-animation {
+        height: 26px;
+        width: 35%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    h2.section-heading-left.skeletion-animation {
+        height: 26px;
+        width: 35%;
+        margin-left: 0;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .bar {
+        width: 70px !important;
+    }
+
+    .section-heading-left-circle {
+        width: 70% !important;
+        height: 13px !important;
+        margin-right: 0px !important;
+        // background-color: var(--skelton2-bg) !important;
+    }
+
+
+    p.section-subheading {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    p {
+        height: 14px;
+        width: 70%;
+    }
+
+    .static-card {
+        .col-lg-3 {
+            height: 100px !important;
+            border-radius: 50%;
+        }
+
+        .skeletion-animation {
+            height: 170px;
+            width: 100%;
+        }
+    }
+
+    h2.skeletion-animation {
+        height: 100px;
+        // width: 100% !important;
+        background-color: var(--skelton3-bg) !important;
+    }
+
+    h3.skeletion-animation {
+        height: 30px;
+        width: 100%;
+        background-color: var(--skelton3-bg) !important;
+        margin-bottom: 30px;
+    }
+
+    h4.skeletion-animation {
+        height: 20px;
+        width: 85%;
+    }
+
+    h5.skeletion-animation {
+        height: 18px;
+        width: 85%;
+        background-color: var(--skelton3-bg) !important;
+    }
+
+    h6.skeletion-animation {
+        height: 16px;
+        width: 85%;
+    }
+
+    .price.skeletion-animation {
+        height: 20px;
+        display: block;
+        width: 20%;
+    }
+
+    #countdown li {
+        span {
+            width: 30px;
+            height: 30px;
+            margin-bottom: 10px;
+        }
+
+        div {
+            height: 10px;
+        }
+    }
+
+    button.skeletion-animation,
+    .btn.skeletion-animation {
+        width: 90px;
+        height: 33px;
+        border: none !important;
+        background-color: var(--skelton1-bg) !important;
+        cursor: default;
+
+        &.text {
+            background-color: var(--skelton3-bg) !important;
+        }
+
+        &.litext {
+            background-color: var(--skelton2-bg) !important;
+        }
+
+        &::before {
+            display: none;
+        }
+    }
+
+    .thumb-img.skeletion-animation {
+        width: 100%;
+        height: 100%;
+    }
+
+    .badge.skeletion-animation {
+        height: 20px;
+        width: 50px;
+        display: block;
+        background-color: var(--skelton3-bg) !important;
+    }
+
+    // .badge-color{
+    //     background-color: var(--skelton3-bg) !important;
+    // }
+    .rating {
+        display: flex;
+
+        span.skeletion-animation {
+            width: 12px;
+            height: 12px;
+            display: block;
+            margin: 2px;
+
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .list-icon.skeletion-animation {
+        width: 40px;
+        height: 20px;
+        display: block;
+    }
+
+    .sm-btn {
+        width: 40px;
+        height: 30px;
+        margin-right: 15px;
+        margin-bottom: 10px;
+        background-color: var(--skelton3-bg) !important;
+    }
+
+    .filter {
+        width: 100px;
+        height: 20px;
+        margin-right: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: var(--skelton3-bg) !important;
+    }
+
+    .fillter-1 {
+        width: 40px;
+        height: 30px;
+    }
+
+    .fillter-4 {
+        width: 90px !important;
+        height: 30px;
+        background-color: var(--skelton3-bg) !important;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .filter-2 {
+        width: 200px;
+        height: 30px;
+    }
+
+    .card-height-1 {
+        height: 150px !important;
+        .thumb-img-circle{
+            height: 70px;
+            width: 70px;
+            border-radius: 100%;
+            background-color: var(--skelton3-bg) !important;
+        }
+        .card-body-1{
+            display: contents;
+            justify-content: center;
+        }
+    }
+
+
+    .compare-item {
+        height: 400px;
+        background-color: var(--skelton3-bg) !important;
+
+        .compare-item-img {
+            background-color: var(--skelton2-bg) !important;
+        }
+
+        .img-wrap {
+            width: 100%;
+            height: 100%;
+            background-color: var(--skelton3-bg) !important;
+        }
+
+        li {
+            background-color: var(--skelton3-bg);
+            height: 45px;
+
+            &:nth-child(2) {
+                background-color: var(--skelton2-bg) !important;
+            }
+        }
+
+        .btn {
+            width: 10%;
+            height: 50px;
+            background-color: var(--skelton3-bg);
+        }
+    }
+
+    .review-cards {
+        .card {
+            height: 117px;
+            background-color: var(--skelton3-bg) !important;
+        }
+
+    }
+
+    .rating-review-sec {
+        .card-wrap {
+            height: 274px;
+            background-color: var(--skelton2-bg) !important;
+        }
+
+        p {
+            width: 60%;
+            height: 15px;
+            background-color: var(--skelton3-bg) !important;
+
+            &:nth-child(2) {
+                width: 40%;
+            }
+        }
+
+        .text {
+            width: 70px;
+            height: 20px;
+            background-color: var(--skelton3-bg) !important;
+        }
+
+        .h4 {
+            width: 50%;
+            height: 30px;
+            background-color: var(--skelton3-bg) !important;
+        }
+    }
+
+    .product-rating-review-sec {
+        p {
+            width: 60%;
+            height: 15px;
+            background-color: var(--skelton3-bg) !important;
+
+            &:nth-child(2) {
+                width: 40%;
+            }
+        }
+
+        .text {
+            width: 70px;
+            height: 20px;
+            background-color: var(--skelton3-bg) !important;
+        }
+
+        .h4 {
+            width: 50%;
+            height: 30px;
+            background-color: var(--skelton3-bg) !important;
+        }
+
+        .rat-rev-wrap {
+            .img {
+                width: 100%;
+                height: 100%;
+                background-color: var(--skelton3-bg) !important;
+            }
+
+            p {
+                width: 260px;
+                height: 15px;
+                background-color: var(--skelton3-bg) !important;
+
+                &:nth-child(2) {
+                    width: 40%;
+                }
+            }
+
+        }
+    }
+
+    .form-button {
+        width: 50px !important;
+    }
+}
+
+.skeletion-effect.hero-slider {
+    height: 500px;
+    padding-left: 11%;
+    width: 100%;
+}
+
+.skeletion-effect.flash-sale-products .card {
+    margin: 0;
+}
+
+.skeletion-effect.featured-items {
+    .section-heading {
+        width: 50% !important;
+    }
+
+    .card {
+        margin: 0;
+        cursor: default;
+
+        .hov-wrap {
+            opacity: 1;
+            transition: none;
+            visibility: inherit;
+            background-color: transparent;
+        }
+    }
+
+    .rating {
+        justify-content: center;
+    }
+
+    .custom-badge {
+        background-color: var(--skelton1-bg) !important;
+        left: inherit;
+        right: 10px;
+    }
+
+    .custom-badge-2 {
+        background-color: var(--skelton1-bg) !important;
+        left: inherit;
+        right: 10px;
+        width: 40px;
+    }
+
+    .img-wrap {
+        background-color: var(--skelton3-bg) !important;
+    }
+}
+
+.skeletion-effect.new-arrivals,
+.skeletion-effect.upcoming-items {
+    .col-sm-9 {
+        margin-top: -0.75rem;
+        margin-bottom: -0.75rem;
+    }
+
+    .thumb-img-wrap {
+        width: 80%;
+        height: 168px;
+        margin: 0 auto;
+    }
+
+    h3 {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h5 {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .col-4 {
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+    }
+
+    .card {
+        border: 0;
+        margin: 0;
+
+        .thumb-img-wrap {
+            height: inherit;
+        }
+
+        .thumb-img.skeletion-animation {
+            height: 100px;
+        }
+
+        .thumb-image-custom-height {
+            height: 300px !important;
+        }
+
+        .custom-badge {
+            width: 50px !important;
+        }
+
+        .img-wrap-height {
+            height: 300px !important;
+        }
+
+        .thumb-image-width {
+            height: 205px !important;
+        }
+
+        .thumb-img-wrap {
+            width: 100% !important;
+        }
+
+    }
+
+    .section-heading-animation {
+        width: 50% !important;
+        margin-bottom: 50px !important;
+    }
+
+    .section-subheading-animation {
+        width: 30% !important;
+    }
+
+    .card-color {
+        background-color: var(--skelton3-bg) !important;
+        height: 250px !important;
+    }
+
+    .text-color {
+        background-color: var(--skelton1-bg) !important;
+    }
+
+    .section-heading-left {
+        margin-bottom: 50px !important;
+        width: 25% !important;
+    }
+}
+
+.skeletion-effect.parallex-section.skeletion-animation {
+    background-image: none;
+
+    h2.skeletion-animation {
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .btn.skeletion-animation {
+        width: 10%;
+    }
+}
+
+.skeletion-effect.testimonials .card .card-body {
+
+    &:after,
+    &:before {
+        display: none;
+    }
+
+    p {
+        height: 14px;
+        width: 100%;
+        margin-bottom: 5px;
+
+        +p {
+            width: calc(100% - 5%);
+
+            +p {
+                width: calc(100% - 10%);
+            }
+        }
+    }
+
+    h6.skeletion-animation {
+        width: 45%;
+    }
+}
+
+.skeletion-effect.top-brands .thumb-img.skeletion-animation {
+    height: 70px;
+}
+
+.skeletion-effect.blog .card {
+    margin: 0;
+
+    .thumb-img.skeletion-animation {
+        height: 386px;
+    }
+
+    .thumb-img-blog.skeletion-animation {
+        height: 185px;
+    }
+
+    h5.skeletion-animation {
+        width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h6.skeletion-animation {
+        width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    p {
+        width: 80%;
+        margin-bottom: 5px;
+        margin-left: auto;
+        margin-right: auto;
+
+        +p {
+            width: calc(100% - 10%);
+
+            +p {
+                width: calc(100% - 30%);
+            }
+        }
+    }
+}
+
+.section-heading-left-width {
+    width: 25% !important;
+    margin-bottom: 50px !important;
+}
+
+
+.skeletion-effect.news-letter {
+    .insta-feeds {
+        .col {
+            padding: 0 2.5px;
+
+            &:first-child {
+                padding-left: 0;
+            }
+
+            &:last-child {
+                padding-right: 0;
+            }
+        }
+
+        .card-img-top {
+            height: 130px;
+        }
+    }
+
+    .news-letter-mail h2 {
+        width: 45%;
+    }
+}
+
+.permote-wraper.skeletion-animation {
+    .permote-card {
+        width: 64%;
+    }
+
+    .thumb-img {
+        width: 36px;
+        height: 36px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius: 50%;
+    }
+
+    .thumb-img1 {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+.skeletion-animation {
+    background-color: var(--skelton1-bg) !important;
+    position: relative;
+    overflow: hidden;
+
+    &::after {
+        content: "";
+        background-image: linear-gradient(90deg,
+                rgba(255, 255, 255, 0) 0,
+                rgba(255, 255, 255, 0.2) 20%,
+                rgba(255, 255, 255, 0.5) 60%,
+                rgba(255, 255, 255, 0));
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        transform: translateX(-100%);
+        animation: shimmer 2s infinite;
+    }
+
+    &.text {
+        background-color: var(--skelton3-bg) !important;
+    }
+
+    &.litext {
+        background-color: var(--skelton2-bg) !important;
+    }
+}
+
+@-webkit-keyframes shimmer {
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes shimmer {
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.brands-page {
+    .skeletion-effect {
+        h2.skeletion-animation {
+            height: 40px;
+            width: 40% !important;
+            background-color: var(--skelton3-bg) !important;
+        }
+    }
+}
+
+.vender-profle-page {
+    .skeletion-effect {
+        h2 {
+            width: 40%;
+        }
+
+        p {
+            height: 18px;
+            width: 60px;
+        }
+
+        .vendor-img.lg {
+            width: 160px !important;
+            height: 160px !important;
+        }
+    }
+}
+
+.product-detail {
+    .skeletion-effect {
+        h1 {
+            width: 100%;
+            height: 20px;
+            background-color: var(--skelton3-bg) !important;
+        }
+
+        h2 {
+            width: 65%;
+            height: 20px;
+            background-color: var(--skelton3-bg) !important;
+        }
+
+        h3 {
+            width: 45%;
+            height: 20px;
+            background-color: var(--skelton3-bg) !important;
+        }
+
+        .text {
+            height: 18px;
+            width: 60px;
+            background-color: var(--skelton3-bg) !important;
+        }
+
+        .image {
+            width: 100% !important;
+            height: 100% !important;
+            background-color: var(--skelton3-bg) !important;
+        }
+
+        .btn {
+            height: 20px;
+            background-color: var(--skelton3-bg) !important;
+            width: 45px;
+        }
+
+        .btn-lg {
+            height: 33px;
+            background-color: var(--skelton3-bg) !important;
+            width: 40%;
+            border-radius: 0.6rem;
+        }
+
+        .badge {
+            height: 22px;
+            width: 40px;
+            background-color: var(--skelton1-bg) !important;
+        }
+
+        .carousel {
+            width: 100%;
+            height: 594px;
+            background-color: var(--skelton3-bg) !important;
+        }
+
+        .qty {
+            height: 33px;
+            width: 50px;
+            background-color: var(--skelton3-bg) !important;
+            border-radius: 0.6rem;
+        }
+
+        .btn-width {
+            width: 56px !important;
+            height: 43px;
+        }
+
+        .btn-width-2 {
+            width: 70px !important;
+            height: 43px;
+        }
+
+        .border-top-color {
+            border-top: 2px solid var(--skelton2-bg) !important;
+            border-bottom: 2px solid var(--skelton2-bg) !important;
+        }
+
+        .border-bottom-color {
+            border-bottom: transparent;
+        }
+
+        .border-color {
+            border-top: 1px solid var(--skelton2-bg) !important;
+        }
+
+        .border-card {
+            border: 1px solid var(--skelton2-bg) !important;
+        }
+    }
+}
+
+.order-detail {
+    .skeletion-effect {
+        .p1 {
+            width: 100%;
+            height: 15px !important;
+            background-color: var(--skelton3-bg) !important;
+            margin-bottom: 10px;
+        }
+
+        .p2 {
+            width: 65%;
+            height: 15px !important;
+            background-color: var(--skelton3-bg) !important;
+            margin-bottom: 10px;
+        }
+
+        .h1 {
+            width: 70% !important;
+            height: 25px !important;
+            background-color: var(--skelton3-bg) !important;
+        }
+
+        .h2 {
+            width: 55% !important;
+            height: 25px !important;
+            background-color: var(--skelton3-bg) !important;
+        }
+
+        .h3 {
+            width: 35% !important;
+            height: 25px !important;
+            background-color: var(--skelton3-bg) !important;
+        }
+
+        .img {
+            width: 100% !important;
+            height: 100% !important;
+            background-color: var(--skelton3-bg) !important;
+        }
+
+        .detail {
+            width: 100% !important;
+            height: 186px !important;
+            background-color: var(--skelton2-bg) !important;
+        }
+
+        .shipping {
+            width: 100% !important;
+            height: 395px !important;
+            background-color: var(--skelton2-bg) !important;
+        }
+
+        .btn-block {
+            width: 100%;
+        }
+    }
+}
+
+.my-profile-page {
+    .skeletion-effect {
+        .button {
+            width: 155px;
+            height: 47px;
+            background-color: var(--skelton3-bg) !important;
+            border-top-left-radius: 0.6rem;
+            border-top-right-radius: 0.6rem;
+        }
+
+        .tab-pane {
+            width: 100%;
+            height: 500px;
+            background-color: var(--skelton2-bg) !important;
+        }
+
+        .profile {
+            background-color: var(--skelton3-bg) !important;
+            width: 100%;
+            height: 300px;
+
+            .circle-profile {
+                width: 150px;
+                height: 150px;
+                border-radius: 100%;
+                background-color: var(--skelton1-bg) !important;
+            }
+
+            .profile-heading {
+                width: 200px !important;
+            }
+        }
+
+        .input-height-2 {
+            height: 30px !important;
+        }
+
+        .radio-width {
+            width: 70px !important;
+        }
+
+        .label-width {
+            width: 120px !important;
+        }
+
+        .label-width-2 {
+            width: 40px !important;
+        }
+
+        .label-width-3 {
+            width: 300px !important;
+        }
+
+        .input-radio {
+            height: 20px;
+            width: 20px;
+            border-radius: 100% !important;
+            background-color: var(--skelton1-bg) !important;
+        }
+    }
+}
+
+
+.contact-us {
+    .skeletion-effect {
+        .heading {
+            height: 30px;
+            width: 30%;
+            background-color: var(--skelton3-bg) !important;
+            margin-bottom: 20px;
+        }
+
+        .text {
+            height: 20px;
+            width: 60%;
+            background-color: var(--skelton3-bg) !important;
+            margin-bottom: 30px
+        }
+
+        .form {
+            height: 370px;
+            // background-color: var(--skelton2-bg) !important;
+
+            .textarea {
+                height: 150px;
+                background-color: var(--skelton3-bg) !important;
+                margin-bottom: 15px;
+            }
+
+            .input {
+                height: 45px;
+                background-color: var(--skelton3-bg) !important;
+                margin-bottom: 20px;
+            }
+
+            .input-heading {
+                height: 20px !important;
+                width: 125px !important;
+            }
+
+            .btn {
+                background-color: var(--skelton3-bg) !important;
+            }
+
+        }
+
+        .map {
+            height: 370px;
+            background-color: var(--skelton3-bg) !important;
+        }
+
+        .review-cards {
+            .card {
+                height: 150px;
+            }
+
+            .card-height {
+                height: 200px;
+
+                .card-circle-1 {
+                    height: 70px;
+                    width: 70px;
+                    border-radius: 100%;
+                    background-color: var(--skelton1-bg) !important;
+                }
+            }
+
+        }
+    }
+
+}
+
+.blog-page {
+    .skeletion-effect {
+        .img {
+            height: 370px;
+            background-color: var(--skelton3-bg) !important;
+            margin-bottom: 30px
+        }
+
+        .text {
+            height: 20px;
+            width: 60%;
+            background-color: var(--skelton3-bg) !important;
+            margin-bottom: 20px;
+
+            &.second {
+                width: 65% !important;
+            }
+
+            &.third {
+                width: 75% !important;
+            }
+
+            &.third-custom {
+                width: 100% !important;
+            }
+
+        }
+
+
+        .h4 {
+            height: 20px;
+            width: 60%;
+            background-color: var(--skelton3-bg) !important;
+            margin-bottom: 20px
+        }
+
+        .text-heading {
+            height: 20px;
+        }
+
+        .margintop {
+            margin-top: 50px !important;
+            background-color: var(--skelton2-bg) !important;
+        }
+
+        .card-height {
+            height: 200px !important;
+
+            .custoom-circle {
+                height: 50px;
+                width: 50px;
+                border-radius: 100%;
+                background-color: var(--skelton1-bg) !important;
+            }
+        }
+
+        .text-heading-card {
+            background-color: var(--skelton1-bg) !important;
+        }
+
+        .thumb-image-width-1 {
+            height: 230px;
+            margin-bottom: 10px !important;
+        }
+
+        .card-height-1 {
+            height: 330px;
+        }
+    }
+}
+
+.blog-detail {
+    .skeletion-effect {
+        .heading {
+            height: 45px;
+            background-color: var(--skelton3-bg) !important;
+            margin-bottom: 20px;
+            width: 30%;
+        }
+
+        .subheading {
+            height: 20px;
+            background-color: var(--skelton3-bg) !important;
+            margin-bottom: 20px;
+            width: 20%
+        }
+
+        .badge {
+            width: 50px;
+            height: 30px;
+            background-color: var(--skelton3-bg) !important;
+            margin-bottom: 20px
+        }
+
+        .banner {
+            height: 400px;
+            background-color: var(--skelton3-bg) !important;
+            margin-bottom: 30px
+        }
+        .banner-2{
+            height: 140px;
+            background-color: var(--skelton1-bg) !important;
+            margin-bottom: 30px 
+        }
+        .banner-3{
+            height: 1200px;
+            background-color: var(--skelton3-bg) !important;
+            margin-bottom: 30px 
+        }
+
+        .text {
+            height: 20px;
+            width: 60%;
+            background-color: var(--skelton3-bg) !important;
+            margin-bottom: 20px;
+
+            &.second {
+                width: 70%;
+            }
+
+            .third {
+                width: 65%;
+            }
+        }
+        .blog-text{
+            height: 20px;
+            width: 60%;
+            background-color: var(--skelton1-bg) !important;
+            margin-bottom: 20px;
+        }
+     
+        .circle-blog-1{
+            height: 30px;
+            width: 30px;
+            border-radius: 100%;
+            background-color: var(--skelton1-bg) !important;
+        }
+    }
+}
+
+.about-us {
+    .skeletion-effect {
+        .heading {
+            height: 45px;
+            background-color: var(--skelton3-bg) !important;
+            margin-bottom: 20px;
+            width: 30%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .subheading {
+            height: 20px;
+            background-color: var(--skelton3-bg) !important;
+            margin-bottom: 20px;
+            width: 20%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .banner {
+            height: 400px;
+            background-color: var(--skelton3-bg) !important;
+            margin-bottom: 30px
+        }
+
+        .review-cards {
+            .card {
+                height: 150px;
+            }
+
+        }
+
+        .content {
+            .img {
+                height: 400px;
+                background-color: var(--skelton3-bg) !important;
+            }
+
+            .text {
+                height: 20px;
+                width: 60%;
+                background-color: var(--skelton3-bg) !important;
+                margin-bottom: 20px;
+
+                &.second {
+                    width: 70%;
+                }
+
+                .third {
+                    width: 65%;
+                }
+            }
+        }
+
+        .team {
+            .img {
+                height: 108px;
+                background-color: var(--skelton3-bg) !important;
+            }
+        }
+    }
+}
+
+
+.product-order {
+    .skeletion-effect {
+        .form {
+
+            height: auto !important;
+            background-color: var(--skelton2-bg) !important;
+
+            .label {
+                width: 50px;
+                height: 15px;
+                background-color: var(--skelton3-bg) !important;
+                margin-bottom: 15px;
+            }
+
+            .label-circle {
+                width: 50px;
+                height: 50px;
+                background-color: var(--skelton3-bg) !important;
+                border-radius: 100% !important;
+                margin-bottom: 15px;
+            }
+
+            .label-circle-2 {
+                width: 30px;
+                height: 30px;
+                background-color: var(--skelton3-bg) !important;
+                border-radius: 100% !important;
+                margin-bottom: 15px;
+            }
+
+            .textarea {
+                height: 50px;
+                background-color: var(--skelton3-bg) !important;
+                margin-bottom: 15px;
+            }
+
+            .input {
+                height: 45px;
+                background-color: var(--skelton3-bg) !important;
+                margin-bottom: 20px;
+            }
+
+            .btn {
+                background-color: var(--skelton3-bg) !important;
+            }
+        }
+
+        .card-circle {
+            height: 40px !important;
+            width: 40px !important;
+            border-radius: 100%;
+            background-color: var(--skelton3-bg) !important;
+        }
+
+        .label-1 {
+            background-color: var(--skelton3-bg) !important;
+            width: 110px;
+            height: 20px;
+        }
+    }
+}
+
+
+.general-card.skeletion-effect {
+    height: 370px !important;
+    background-color: var(--skelton2-bg) !important;
+
+    .text {
+        height: 20px;
+        width: 60%;
+        background-color: var(--skelton3-bg) !important;
+        margin-bottom: 20px;
+
+        &.second {
+            width: 70%;
+        }
+
+        .third {
+            width: 65%;
+        }
+    }
+}
+
+.collect-voucher.skeletion-effect {
+    .col-lg-3 {
+        .skeletion-animation.rounded {
+            background-color: var(--skelton3-bg) !important;
+            height: 120px;
+        }
+
+        .thumb-img {
+            width: 92px;
+            height: 92px;
+            border-radius: 50%;
+            background-color: var(--skelton1-bg) !important;
+        }
+
+        .skeletion-animation.text {
+            background-color: var(--skelton2-bg);
+            height: 50px;
+        }
+    }
+}
+.bg-secondary.top-shop {
+    height: 200px;
+    .filter.last {
+        width: 200px;
+    }
+}

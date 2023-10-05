@@ -1,0 +1,196 @@
+.categories-parent-section{
+    background-color: var(--color-section-bacground);
+    padding: 20px;
+}
+
+.nested-categories{
+    overflow: auto;
+    max-height: 500px;
+    padding: 0px 30px 30px 0px;
+}
+
+.nested-categories > ul {
+    margin-top: -20px;
+}
+
+.nested-categories::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.nested-categories::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/* Handle */
+.nested-categories::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(5, 5, 5, 0.1);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+.nested-categories::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+.treeview{
+
+ul {
+    list-style: none;
+
+    li {
+        padding: 30px 0px 0px 0px;
+        position: relative;
+        &::before{
+            content: "";
+            position: absolute;
+            top: 78px;
+            left: 32px;
+            border-left: 1px solid var(--color-border);
+            width: 1px;
+            height: 100%;
+        }
+        &::after{
+            content: "";
+            position: absolute;
+            border-top: 1px solid var(--color-border);
+            top: 70px;
+            left: -30px;
+            width: 65px;
+        }
+
+        .tree-sub-child  li {
+            padding: 30px 0px 0px 40px;
+        }
+
+        div.form-check{
+            border: 1px solid var(--color-border);
+            background-color: var(--bg-secondary);
+            box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.14);
+            label{
+                font-size: 12px;
+            }
+        }
+
+    }
+
+    .form-check {
+        padding:10px;
+        background-color: var(--bg-secondary);
+        border-radius: 5px;
+        color: var(--text-body-secondary) !important;
+        border: 1px solid var(--color-border);
+        label{
+            font-weight: 400;
+        }
+    }
+
+    .form-check input[type="checkbox"]:checked + label::after{
+        top: 5px;
+        width: 9px;
+    }
+
+
+    .tree-sub-child .treeview ul{
+        padding-left: 0px;
+        li{
+            &::before{
+                content: "";
+                position: absolute;
+                top: -2px;
+                left: -2px;
+                border-left: 1px solid #dee2e6;
+                border-left: 1px solid var(--color-border);
+                width: 1px;
+                height: 64px;
+            }
+
+            &::after{
+                content: "";
+                position: absolute;
+                border-top: 1px solid var(--color-border);
+                top: 61px;
+                left: -1px;
+                width: 41px;
+                    }
+        }
+    }
+
+
+
+    .tree-sub-child .tree-sub-child .treeview ul li:before {
+        content: "";
+        position: absolute;
+        top: -2px;
+        left: 30px;
+        border-left: 1px solid var(--color-border);
+        width: 1px;
+        height: 100%;
+    }
+
+    .tree-sub-child .tree-sub-child .treeview ul li:last-child:before{
+        top: -2px;
+        height: 63px;
+    }
+
+    .tree-sub-child .tree-sub-child .treeview ul li:after {
+        content: "";
+        position: absolute;
+        border-top: 1px solid var(--color-border);
+        top: 61px;
+        left: 30px;
+        width: 30px;
+    }
+
+    .tree-sub-child .tree-sub-child .treeview ul li {
+        padding: 30px 0px 0px 60px;
+        position: relative;
+    }
+
+     li:last-child:before {
+        top: -22px;
+        height: 90px;
+    }
+     li:after, li:last-child:before {
+        content: unset;
+    }
+    li:not(:last-child) > ul > li:before {
+        content: unset;
+    }
+
+   li > ul {
+        padding-left: 34px;
+    }
+}
+
+}
+
+
+.rtl{
+    .nested-categories{
+        padding:0px 0px 30px 30px !important;
+    }
+    li {
+
+        .form-check [type="radio"]:checked, .form-check [type="radio"]:not(:checked), .form-check input[type="checkbox"]{
+            right: -999em;
+            left: auto !important;
+        }
+
+        .form-check input[type="checkbox"] + label::before{
+            margin-left: 0.5em;
+        }
+
+        .form-check input[type="checkbox"]:checked + label::after{
+            right: 9px;
+            left: auto !important;
+        }
+
+    }
+
+}
+

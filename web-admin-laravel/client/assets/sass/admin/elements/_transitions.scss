@@ -1,0 +1,28 @@
+.page-enter-active,
+.page-leave-active {
+  transition: opacity .2s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity .15s
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0
+}
+
+
+.ease-in-out{
+  transition: all .1s ease-in-out;
+}
+.ease-in-out:hover{
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+

@@ -1,0 +1,64 @@
+.card-custom.gutter-b{
+  height: calc(100% - 30px);
+}
+.card-custom{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch !important;
+  -ms-flex-align: stretch !important;
+  align-items: stretch !important;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  border-radius: $border-radius-md;
+
+  .card-header{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+      align-items: stretch;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      min-height: 70px;
+      padding-top: 0;
+      padding-bottom: 0;
+      background-color: transparent;
+  }
+}
+
+.card {
+  box-shadow: none;
+  background-color: var(--bg-secondary) !important;
+  border-radius: $border-radius-md;
+  padding: 25px 20px;
+  .card-header{
+    border-bottom: 0px;
+    background-color: transparent;
+  }
+  .card-body{
+    color: var(--text-body-secondary);
+    background-color: var(--bg-secondary);
+    transition: background-color 0.8s !important;
+    padding: 0px;
+    h3{
+      color: var(--text-body) !important;
+    }
+    .row{
+      margin-left: 0px;
+      margin-right: 0px;
+      }
+  }
+  .form-control,.form-select,.form-switch{
+   margin-bottom: 1em;
+  }
+}
+
+

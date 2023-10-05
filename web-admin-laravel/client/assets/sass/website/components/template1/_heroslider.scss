@@ -1,0 +1,103 @@
+.hero-slider {
+    margin: 0!important;
+    .slick-slider {
+        .slick-active .hero-wrp .hero-img {transform: scale(1, 1);}
+        .slick-prev, .slick-next {
+            top: 50%;
+            z-index: 10;
+            right: 30px;
+            margin: 0;
+            width: 22px;
+            height: 36px;
+            &:before {
+                width: 22px;
+                height: 36px;
+            }
+        }
+        .slick-prev {
+            left: 30px;
+            right: inherit;
+        }
+        @media (max-width: 1200px) {
+            .slick-arrow {
+                display: none !important;
+            }
+        }
+    }
+    .hero-caption {
+        width: 46%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+        left: auto;
+        text-align: left;
+        color: black;
+        max-width: inherit;
+        bottom: inherit;
+        h1 {
+            font-size: 3.375rem;
+            .fs-1 {
+                font-size: 2.3rem !important;
+                margin-bottom: 0.5rem;
+            }
+        }
+        .btn {
+            span {
+                margin-left: 0.3rem;
+            }
+            svg {
+                font-size: 1.3rem;
+            }
+        }
+        @media (max-width:1200px) {
+            h1 {
+                font-size: 2.375rem;
+                .fs-1 {
+                    font-size: 1.8rem !important;
+                }
+            }
+        }
+        @media only screen and (max-width: 767px) {
+            .hero-caption {
+                width: 56%;
+            }
+            h1 {
+                font-size: 1.375rem;
+                .fs-1 {
+                    font-size: 1rem !important;
+                }
+            }
+            .btn {
+                padding: 5px 10px !important;
+                font-size: 10px !important;
+            }
+        }
+    }
+    .hero-wrp {
+        position: relative;
+        background-color: var(--bg-secondary-light);
+        .hero-img {
+            height: 350px;
+            object-fit: contain;
+            @media (min-width:1200px) {
+                height: 500px;
+            }
+            @media only screen and (max-width: 767px) {
+                height: 230px;
+                object-position: -180px top;
+            }
+        }
+    }
+}
+
+.rtl .hero-slider .slick-slider {
+    .slick-prev, .slick-next {
+        right: 15px;
+        left: inherit;
+    }
+    .slick-prev {
+        left: 20px;
+        right: inherit;
+    }
+}

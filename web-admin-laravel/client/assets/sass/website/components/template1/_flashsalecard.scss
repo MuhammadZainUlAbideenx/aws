@@ -1,0 +1,118 @@
+.flash-sale-products {
+    .slick-list {
+        margin: -1rem -0.75rem;
+    }
+    .card {
+        margin: 1rem 0.75rem;
+        box-shadow: 0rem 0 0.2rem 0 rgba(0, 0, 0, 0.2);
+        .price{
+            font-size: 16px;
+            font-weight: bold;
+            color: var(--primary);
+        }
+        .img-wrap {
+            width: 100%;
+            // height: 100%;
+            height: 286px;
+        }
+        #countdown {
+            padding-left: 0px;
+            margin: 0;
+            li {
+                display: inline-block;
+                font-size: 10px;
+                list-style-type: none;
+                text-transform: uppercase;
+                padding:0 8px;
+                &:first-child{
+                    padding-left: 0px;
+                }
+                > div {
+                    opacity: 0.5;
+                }
+                span {
+                    display: block;
+                    font-size: 20px;
+                    font-weight: bold;
+                    text-align: center;
+                }
+            }
+        }
+        .sales-card-footer{
+            .list-icon {
+                color: var(--text-body);
+                font-size: 20px;
+                &:hover {
+                    color: var(--primary);
+                }
+            }
+        }
+    }
+    @media (max-width:1199px) {
+        h6 a {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            height: 33.8px;
+        }
+        .card .img-wrap {
+            min-height: 245px;
+        }
+    }
+    @media (max-width:1199px) and (min-width: 992px){
+        .card {
+            .img-wrap {
+                min-height: 210px;
+            }
+            #countdown li {
+                padding: 0 4px;
+                span {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    @media (max-width:991px) and (min-width: 768px){
+        .card {
+            .card-body {
+                padding: 0.75rem !important;
+            }
+            #countdown li {
+                padding: 0 4px;
+                span {
+                    font-size: 14px;
+                }
+                > div {
+                    font-size: 82%;
+                }
+            }
+            .btn-primary {
+                font-size: 10px;
+            }
+            .sales-card-footer .list-icon {
+                font-size: 16px;
+            }
+        }
+    }
+    @media (max-width:767px) and (min-width: 481px){
+        .card {
+            .img-wrap {
+                min-height: 246px;
+            }
+        }
+    }
+    @media (max-width:480px) {
+        .card {
+            .img-wrap {
+                min-height: inherit;
+            }
+        }
+    }
+}
+.rtl {
+    .flash-sale-products .card #countdown li:first-child {
+        padding: revert;
+    }
+}
+

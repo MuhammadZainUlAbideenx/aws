@@ -1,0 +1,58 @@
+{
+    "web_header_images_url": {
+        "Layout1": "/backend/api/static_images/web-header-1.jpg",
+        "Layout2": "/backend/api/static_images/web-header-2.jpg",
+        "Layout3": "/backend/api/static_images/web-header-3.jpg",
+        "Layout4": "/backend/api/static_images/web-header-4.jpg",
+        "Layout5": "/backend/api/static_images/web-header-5.jpg",
+        "Layout6": "/backend/api/static_images/web-header-6.jpg",
+        "Layout7": "/backend/api/static_images/web-header-7.png",
+        "Layout8": "/backend/api/static_images/web-header-8.png",
+        "Layout9": "/backend/api/static_images/web-header-9.png",
+        "Layout10": "/backend/api/static_images/web-header-10.png"
+    },
+    "mobile_header_images_url": {
+        "Layout1": "/backend/api/static_images/mob-header-1.png",
+        "Layout2": "/backend/api/static_images/mob-header-2.png",
+        "Layout3": "/backend/api/static_images/mob-header-3.png",
+        "Layout4": "/backend/api/static_images/mob-header-4.png",
+        "Layout5": "/backend/api/static_images/mob-header-5.png",
+        "Layout6": "/backend/api/static_images/mob-header-6.png",
+        "Layout7": "/backend/api/static_images/mob-header-7.png",
+        "Layout8": "/backend/api/static_images/mob-header-8.png"
+    },
+    "smart_category_banner_images_url": {
+        "Layout1": "/backend/api/static_images/cat-smart-banner-1.jpg",
+        "Layout2": "/backend/api/static_images/cat-smart-banner-2.jpg",
+        "Layout3": "/backend/api/static_images/cat-smart-banner-3.jpg",
+        "Layout4": "/backend/api/static_images/cat-smart-banner-4.jpg",
+        "Layout5": "/backend/api/static_images/cat-smart-banner-5.jpg"
+    },
+    "web_footer_images_url": {
+        "Layout1": "/backend/api/static_images/web-footer-1.png",
+        "Layout2": "/backend/api/static_images/web-footer-2.png",
+        "Layout3": "/backend/api/static_images/web-footer-3.png",
+        "Layout4": "/backend/api/static_images/web-footer-4.png",
+        "Layout5": "/backend/api/static_images/web-footer-5.png",
+        "Layout6": "/backend/api/static_images/web-footer-6.png",
+        "Layout7": "/backend/api/static_images/web-footer-7.png",
+        "Layout8": "/backend/api/static_images/web-footer-8.png",
+        "Layout9": "/backend/api/static_images/web-footer-9.png",
+        "Layout10": "/backend/api/static_images/web-footer-10.png"
+    },
+    "product_card_web_images_url": {
+        "Layout1": "/backend/api/static_images/web-product-card-1.png",
+        "Layout2": "/backend/api/static_images/web-product-card-2.png",
+        "Layout3": "/backend/api/static_images/web-product-card-3.png",
+        "Layout4": "/backend/api/static_images/web-product-card-4.png",
+        "Layout5": "/backend/api/static_images/web-product-card-5.png",
+        "Layout6": "/backend/api/static_images/web-product-card-6.png"
+    },
+     "product_card_mobile_images_url": {
+        "Layout1": "/backend/api/static_images/mobile-product-card-1.png",
+        "Layout2": "/backend/api/static_images/mobile-product-card-2.png",
+        "Layout3": "/backend/api/static_images/mobile-product-card-3.png",
+        "Layout4": "/backend/api/static_images/mobile-product-card-4.png",
+        "Layout5": "/backend/api/static_images/mobile-product-card-5.png"
+    }
+}

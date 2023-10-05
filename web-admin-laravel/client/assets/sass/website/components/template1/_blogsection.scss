@@ -1,0 +1,108 @@
+.blog {
+    .slick-list {
+        margin: -1rem -0.75rem;
+    }
+    .card {
+        margin: 1rem 0.75rem;
+        &:hover {
+            box-shadow: none!important;
+            .img-wrap {
+                box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2) !important;
+                transition: all ease-in-out 0.3s !important;
+            }
+        }
+        .card-body {
+            box-shadow: none;
+            text-align: center;
+            padding: 20px 20px 0;
+        }
+        h5{
+            font-weight: 800;
+        }
+        h6 {
+            opacity: 0.5;
+        }
+        .blog-detail{
+            max-height: 41px;
+            overflow: hidden;
+            h2{
+                display: -webkit-box;
+                -webkit-line-clamp: 1;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                font-size: 0.875rem;
+
+            }
+            p {
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        img{
+            height: 280px;
+            object-fit: cover;
+        }
+    }
+    @media (max-width: 1199px) {
+        .card img {
+            height: 294px;
+        }
+    }
+    @media (max-width: 991px) {
+        .card img {
+            height: 218px;
+        }
+    }
+    @media (max-width: 767px) {
+        .card img {
+            height: inherit;
+            min-width: 250px;
+        }
+    }
+}
+.row.blog + div {
+    margin: 20px 0;
+}
+.blog-home {
+    .card {
+        img {
+            height: 370px;
+            @media (max-width:768px) and (min-width: 600px){
+                height: 200px;
+            }
+        }
+        .card-body {
+            padding-bottom: 20px;
+            h5 {
+                @media (max-width:768px) and (min-width: 600px){
+                    font-size: 14px;
+                }
+            }
+        }
+        .blog-detail {
+            p {
+                @media (max-width:768px) and (min-width: 600px){
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+.blog-page {
+    .card {
+        .card-body {
+            h5 {
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-line-clamp: 1;
+                -webkit-box-orient: vertical;
+            }
+        }
+    }
+}

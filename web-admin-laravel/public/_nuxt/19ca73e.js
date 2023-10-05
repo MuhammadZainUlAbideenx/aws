@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[615],{1094:function(t,e,l){"use strict";l.r(e);var n={auth:!1,layout:"template2_layout"},o=l(71),component=Object(o.a)(n,(function(){var t=this.$createElement,e=this._self._c||t;return e("div",[e("WebsiteTemplate2Test")],1)}),[],!1,null,null,null);e.default=component.exports}}]);

@@ -1,0 +1,91 @@
+.product-detail {
+    .featured-items-card.featured-small {
+        margin-bottom: 1.5rem;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        .img-wrap {
+            height: auto;
+            min-height: 174px;
+            img{
+                height: auto !important;
+            }
+        }
+    }
+    .product-faqs{
+        p {
+            font-size: 18px;
+        }
+    }
+    .price-stock{
+        border-top: 1px solid var(--bg-secondary);
+       .about-stock {
+            padding-left: 20px;
+            position: relative;
+            margin-left: 20px;
+        }
+        .about-stock:before {
+            content: "";
+            width: 1px;
+            height: 100%;
+            background-color: #000;
+            background-color: var(--text-dark);
+            position: absolute;
+            display: block;
+            opacity: 0.2;
+            left: 0;
+            top: 0;
+        }
+    }
+    @media (max-width:1199px) {
+        .featured-items-card.featured-small {
+            &:hover {
+                .icon-wrap {
+                    width: 27px;
+                }
+                .hov-wrap {
+                    height: 34px;
+                }
+            }
+            .img-wrap {
+                min-height: 136px;
+            }
+            .icon-wrap i {
+                margin: 0.2rem 0.2rem 0;
+                &:last-child {
+                    margin-bottom: 0.2rem;
+                }
+            }
+            .star-rating {
+                display: none;
+            }
+            h6 a {
+                height: inherit;
+                white-space: nowrap;
+            }
+        }
+        .product-detail-options {
+            .price-det {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 6;
+            }
+            .ad-cart {
+                width: 36px;
+                height: 36px;
+                padding: 0 0 0 7px !important;
+                font-size: 0px;
+            }
+        }
+        .col-md-2 > h5 {
+            font-size: 1rem;
+        }
+    }
+    @media (max-width:991px) {
+        .product-detail-options .price-det {
+            -webkit-line-clamp: 3;
+        }
+    }
+}

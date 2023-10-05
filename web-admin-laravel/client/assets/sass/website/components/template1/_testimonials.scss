@@ -1,0 +1,103 @@
+.testimonials {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    .slick-prev, .slick-next {
+        top: 50%;
+    }
+    .slick-prev {
+        left: -25px;
+    }
+    .slick-next {
+        right: -25px;
+        margin: 0;
+    }
+    .card {
+        border: 1px solid transparent;
+        margin: 20px 35px 25px;
+        height: 345px;
+        .card-img-top {
+            width: 102px;
+            height: 102px;
+            margin: 13px auto 0;
+            object-fit: contain;
+        }
+        .card-body {
+            padding: 10px 35px 45px;
+            position: relative;
+            box-shadow: none;
+            background: transparent;
+            h6 {
+                color: var(--primary);
+                font-size: 16px;
+                font-weight: bold;
+                text-transform: uppercase;
+                display: -webkit-box;
+                -webkit-line-clamp:1;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+            }
+            .description-sec {
+                font-size: 14px;
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+    .slick-current {
+        .card {
+            // transform: scale(1.180);
+            border-color: var(--border-color)!important;
+            box-shadow: $box-shadow!important;
+            &:hover {
+                box-shadow: none!important;
+            }
+        }
+    }
+    @media (max-width:991px) {
+        .card {
+            margin: 35px 10px 56px;
+            .card-body {
+                max-height: 275px;
+            }
+        }
+        .slick-current .card {
+            transform: scale(1.05);
+        }
+    }
+    @media (max-width:767px) {
+        .slick-arrow {
+            display: none !important;
+        }
+    }
+}
+
+.rtl {
+    .testimonials {
+        .slick-next {
+            right: -25px;
+            left: inherit;
+            margin-left: 0;
+        }
+        .slick-prev {
+            left: -25px;
+        }
+        .card .card-body {
+            &:before, &:after {
+                right: 35px;
+                transform: scaleX(-1);
+                left: inherit;
+            }
+            &:after {
+                transform: scaleX(-1) rotate(180deg);
+                right: inherit;
+                left: 35px;
+            }
+        }
+    }
+}
